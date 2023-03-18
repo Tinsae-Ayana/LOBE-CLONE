@@ -56,7 +56,7 @@ const Overview = () => {
                   </div>
                </div>
                <div className='lg:w-1/2 w-full'>
-                  <video src='src/assets/lobe_vid_1.mp4' autoPlay playsInline muted loop className='w-full h-auto'></video>
+                  <video src='./assets/lobe_vid_1.mp4' autoPlay playsInline muted loop className='w-full h-auto'></video>
                </div>
             </div>
             <div className='lg:block hidden' id='downarrow'>
@@ -80,17 +80,17 @@ const Overview = () => {
                <LobeFeaturesCard
                   title='Easy to use'
                   text='Designed to be easy enough for anyone to use. No code or experience required.'
-                  iconSrc='src/assets/icons/lightbulb.mp4'
+                  iconSrc='./assets/icons/lightbulb.mp4'
                ></LobeFeaturesCard>
                <LobeFeaturesCard
                   title='Free and Private'
                   text='Train for free on your own computer without uploading your data to the cloud.'
-                  iconSrc='src/assets/icons/lock.mp4'
+                  iconSrc='./assets/icons/lock.mp4'
                ></LobeFeaturesCard>
                <LobeFeaturesCard
                   title='Export Anywhere'
                   text='Available for Mac and Windows. Export your model and ship it on any platform you choose.'
-                  iconSrc='src/assets/icons/shipicon.mp4'
+                  iconSrc='./assets/icons/shipicon.mp4'
                ></LobeFeaturesCard>
             </div>
             <div className='md:w-1/2  w-3/4  md:ml-40 ml-4 text-left mb-4 pt-10'>
@@ -108,19 +108,19 @@ const Overview = () => {
                <ProjecTamplateCard
                   title='Image classification'
                   status='ready'
-                  iconSrc='src/assets/icons/imgClass.mp4'
+                  iconSrc='./assets/icons/imgClass.mp4'
                   text='Label an image based on its content.'
                ></ProjecTamplateCard>
                <ProjecTamplateCard
                   title='Object Detection'
                   status='read'
-                  iconSrc='src/assets/icons/objectDet.mp4'
+                  iconSrc='./assets/icons/objectDet.mp4'
                   text='Locate an object inside of an image.'
                ></ProjecTamplateCard>
                <ProjecTamplateCard
                   title='Data classification'
                   status='read'
-                  iconSrc='src/assets/icons/dataClass.mp4'
+                  iconSrc='./assets/icons/dataClass.mp4'
                   text='Label data in a table based on its content.'
                ></ProjecTamplateCard>
             </div>
@@ -139,7 +139,7 @@ const Overview = () => {
             {/* first video display */}
             {/* first row of vidoe display */}
             <div className='relative lg:pt-40 pt-10 overflow-hidden'>
-               <video src='src/assets/lobe_vid_2.mp4' className='  aspect-video object-cover -z-1 ' loop autoPlay muted playsInline></video>
+               <video src='./assets/lobe_vid_2.mp4' className='  aspect-video object-cover -z-1 ' loop autoPlay muted playsInline></video>
                <div className='md:w-2/4 md:ml-40 ml-4 lg:pt-36 lg:absolute lg:bottom-0'>
                   <h1 className='font-bold lg:text-4xl text-2xl text-primaryColor pb-4'>
                      Label <span className='text-bigTextColor'> your images</span>
@@ -151,7 +151,7 @@ const Overview = () => {
                </div>
             </div>
             <div className='relative lg:pt-40 pt-10 overflow-hidden'>
-               <video src='src/assets/lobe_vid_3.mp4' className=' aspect-video object-cover -z-1' loop autoPlay muted></video>
+               <video src='./assets/lobe_vid_3.mp4' className=' aspect-video object-cover -z-1' loop autoPlay muted></video>
                <div className='md:w-2/4 lg:right-32 lg:pt-36 ml-4 lg:absolute bottom-0'>
                   <h1 className='font-bold lg:text-4xl text-2xl text-primaryColor pb-4'>
                      Train <span className='text-bigTextColor'> automatically</span>
@@ -163,7 +163,7 @@ const Overview = () => {
                </div>
             </div>
             <div className='relative lg:pt-40 pt-10 overflow-hidden'>
-               <video src='src/assets/lobe_vid_2.mp4' className=' aspect-video object-cover -z-1' loop autoPlay muted></video>
+               <video src='./assets/lobe_vid_2.mp4' className=' aspect-video object-cover -z-1' loop autoPlay muted></video>
                <div className='lg:w-2/4 md:ml-40 ml-4 lg:pt-36 pt-10 lg:absolute bottom-0'>
                   <h1 className='font-bold lg:text-4xl text-2xl text-primaryColor pb-4'>
                      Use <span className='text-bigTextColor'> your model</span>
