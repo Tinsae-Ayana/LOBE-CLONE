@@ -15,7 +15,7 @@ const BubbleContainer = () => {
       }
    };
 
-   window.addEventListener("scroll", addPopupAnimation);
+   document.getElementById("overview").addEventListener("scroll", addPopupAnimation);
 
    return (
       <div className='h-screen relative'>
