@@ -23,10 +23,13 @@ const Overview = () => {
 
    const togglebutton = () => {
       const scrollLen = document.documentElement.scrollTop;
-      if (scrollLen > 100) {
-         document.getElementById("downarrow").classList.remove("lg:block");
-      } else {
-         document.getElementById("downarrow").classList.add("lg:block");
+
+      if (document.getElementById("downarrow")) {
+         if (scrollLen > 100) {
+            document.getElementById("downarrow").classList.remove("lg:block");
+         } else {
+            document.getElementById("downarrow").classList.add("lg:block");
+         }
       }
    };
 
