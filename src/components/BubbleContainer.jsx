@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 const BubbleContainer = () => {
    // pop up icons when when user reach them through scrolling
    const addPopupAnimation = () => {
@@ -15,7 +17,9 @@ const BubbleContainer = () => {
       }
    };
 
-   document.getElementById("overview").addEventListener("scroll", addPopupAnimation);
+   useEffect(() => {
+      document.getElementById("overview").addEventListener("scroll", addPopupAnimation);
+   }, []);
 
    return (
       <div className='h-screen relative'>
