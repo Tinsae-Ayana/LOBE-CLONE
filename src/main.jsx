@@ -13,7 +13,7 @@ import Welcome from "./components/Welcome";
 
 const router = createBrowserRouter(
    createRoutesFromElements(
-      <Route path='/LOBE-CLONE' element={<Layout></Layout>}>
+      <Route path='' element={<Layout></Layout>}>
          <Route index={true} element={<Overview></Overview>}></Route>
          <Route path='Example' element={<Example></Example>}></Route>
          <Route path='Tour' element={<Tour></Tour>}></Route>
