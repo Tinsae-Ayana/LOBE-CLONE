@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.floatingLogo {
+   @apply absolute w-14 h-14 rounded-xl;
+}
