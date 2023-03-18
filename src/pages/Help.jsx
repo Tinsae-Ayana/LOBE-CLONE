@@ -15,25 +15,25 @@ const Help = () => {
             </div>
             <div className='flex w-2/3 m-auto pt-16'>
                <div className='lg:flex flex-col basis-[25%] hidden '>
-                  <NavLink to='Help/' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='/' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      WelCome
                   </NavLink>
-                  <NavLink to='Help/Label' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Label' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Label
                   </NavLink>
-                  <NavLink to='Help/Train' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Train' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Train
                   </NavLink>
-                  <NavLink to='Help/Results' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Results' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Results
                   </NavLink>
-                  <NavLink to='Help/Play' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Play' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Play
                   </NavLink>
-                  <NavLink to='Help/Export' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Export' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Export
                   </NavLink>
-                  <NavLink to='Help/Improving' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='Improving' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Improving
                   </NavLink>
                   <NavLink to='Tips' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>

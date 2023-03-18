@@ -10,7 +10,7 @@ const Footer = () => {
          </div>
          <div className='flex md:flex-row  flex-wrap md:flex-nowrap flex-row md:justify-around   m-auto lg:w-4/5 border-solid border-gray-300 border-t pb-36'>
             <div className='flex flex-col md:items-start items-center order-5 md:order-1 justify-start space-y-2 text-start mt-20 w-full md:w-fit px-7'>
-               <img src='src/assets/lobeLogo.png' alt='' />
+               <img src='./assets/lobeLogo.png' alt='' />
                <h1 className='text-smallTextColor text-left ml-4'>A product by Microsoft.</h1>
                <h1 className='text-smallTextColor text-left ml-4'>All right reserved.</h1>
                <h1 className='text-smallTextColor text-left ml-4'>&copy; Microsoft 2021</h1>
