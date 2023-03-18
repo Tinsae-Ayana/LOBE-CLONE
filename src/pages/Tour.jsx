@@ -33,7 +33,7 @@ const Tour = () => {
                </p>
             </div>
             <div className='w-2/3 overflow-hidden rounded-3xl m-auto hover:shadow-2xl duration-500' onClick={() => toggle()}>
-               <img src='src/assets/playvidoeImage.jpg' alt='' />
+               <img src='./assets/playvidoeImage.jpg' alt='' />
             </div>
          </section>
          <section>
