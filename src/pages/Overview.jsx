@@ -12,7 +12,6 @@ const Overview = () => {
    //function used to scrolldown
 
    const movedown = () => {
-      console.log(downarrow);
       window.scrollTo({
          top: window.innerHeight,
          behavior: "smooth",
