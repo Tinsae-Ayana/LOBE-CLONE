@@ -36,7 +36,7 @@ const Navbar = () => {
             >
                <hr className='duration-700 lg:hidden block mt-5'></hr>
                <div className='flex  lg:flex-row flex-col justify-evenly w-1/2 lg:px-2 px-0 space-y-7 lg:space-y-0' onClick={showNav}>
-                  <NavLink to='' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='/' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      Overview
                   </NavLink>
                   <NavLink to='Example' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
