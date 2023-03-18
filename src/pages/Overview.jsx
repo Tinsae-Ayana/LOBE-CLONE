@@ -77,7 +77,7 @@ const Overview = () => {
                   automatically trains a custom machine learning model that can be shipped in your app.
                </p>
             </div>
-            <img src='src/assets/overview_img.jpg' alt='' className='w-11/12 m-auto' />
+            <img src='./assets/overview_img.jpg' alt='' className='w-11/12 m-auto' />
             <div className='flex lg:flex-row flex-col justify-around w-10/12 m-auto'>
                <LobeFeaturesCard
                   title='Easy to use'
