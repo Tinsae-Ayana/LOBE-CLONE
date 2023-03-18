@@ -15,7 +15,7 @@ const Help = () => {
             </div>
             <div className='flex w-2/3 m-auto pt-16'>
                <div className='lg:flex flex-col basis-[25%] hidden '>
-                  <NavLink to='/' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
+                  <NavLink to='' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
                      WelCome
                   </NavLink>
                   <NavLink to='Label' className={({ isActive }) => (isActive ? activeDec : notActiveDec)}>
