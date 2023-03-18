@@ -2,7 +2,7 @@ const BubbleContainer = () => {
    // pop up icons when when user reach them through scrolling
    const addPopupAnimation = () => {
       if (document.getElementsByClassName("bubble")) {
-         if (document.getElementById("bubble").getBoundingClientRect()) {
+         if (document.getElementById("bubble").getBoundingClientRect() != null) {
             const bubbleSectionPos = document.getElementById("bubble").getBoundingClientRect().top;
             if (bubbleSectionPos < 50 && bubbleSectionPos > 0) {
                for (var index = 0; index < document.getElementsByClassName("bubble").length; index++) {
